@@ -10,7 +10,7 @@ document.querySelector(".role_dice").addEventListener("click", () => {
 
     document.querySelector(
       ".dice_image"
-    ).src = `./images/dice_${randomDice}.png`;
+    ).src = `./dice_${randomDice}.png`;
 
     currentNumber = currentNumber + randomDice;
 
