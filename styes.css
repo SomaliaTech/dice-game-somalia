@@ -1,0 +1,135 @@
+body{
+margin: 0px auto;
+background-color: #E8BABA;
+padding: 0;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+overflow: hidden;
+font-family: "Inter",sans-serif;
+
+}
+
+.container{
+    background-color: white;
+    width: 60%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70%;
+    position: relative;
+
+}
+
+.player{
+    background-color: #FFEEED;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.title{
+    font-size: 44px;
+    font-weight: bold;
+    color: red;
+}
+.player_title{
+    font-size: 54px;
+    font-weight: bold;
+  
+}
+
+.box{
+    height: 120px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px;
+    color: white;
+}
+
+.score_number{
+    font-size: 44px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.score_title{
+    font-size: 26px;
+    margin: 0px;
+}
+
+.active{
+    background-color: #B2B2B2;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+.center{
+ position: absolute;
+left: 45%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 20px 0px;
+justify-content: space-between;
+
+height: 80%;
+margin: auto;
+}
+
+.dice_image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.role{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 7px 10px ;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+
+
+.winer{
+    background-color: rgba(1, 27, 1, 0.892);
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 100%;
+        gap: 20px;
+    }
+    .center{
+        height: 90%;
+        left: 36%;
+    }
+}
